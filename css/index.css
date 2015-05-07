@@ -6,26 +6,25 @@ body {
   font-size: 1em;
   
   color: white;
-  font-family: monospace;
   padding: 2em;
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 6em;
     text-decoration: underline;
 }
 
 p {
-    font-size: 2em;
+    font-size: 3em;
 }
 
 /* Animation */
 @-webkit-keyframes anitext {
     
-    0% {color: #c48deb;}
-    33% {color: #c4a0dd;}
-    66% {color: #b679e1;}
-    100% {color: #c48deb;}
+    0% {color: #ead8f6;}
+    33% {color: #f0f0f0;}
+    66% {color: #ffffff;}
+    100% {color: #ead8f6;}
 }
 
 h1, p {
