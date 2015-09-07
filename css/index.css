@@ -1,35 +1,35 @@
 body {
   height: 100%;
-  background: url('../img/Forest.jpg') rgb(255, 255, 255);
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1) ), url('../img/Forest.jpg') rgb(255, 255, 255);
   background-size: cover;
-  background-position: left top;
-  font-size: 1em;
-  
-  color: white;
-  padding: 2em;
+  background-position: center top;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
 }
 
-h1 {
-    font-size: 6em;
-    text-decoration: underline;
+/* Container Contnet */
+.container h1 {
+  font-family: market_decoregular, sans-serif;
 }
 
-p {
-    font-size: 3em;
+.container a {
+  color: #ffffff !important;
+  text-decoration: underline;
 }
+
+/* Navbar icons */
+.navbar-toggler>.fa-angle-double-up { display: inline; }
+.navbar-toggler>.fa-angle-double-down { display: none; }
+.navbar-toggler.collapsed>.fa-angle-double-up { display: none; }
+.navbar-toggler.collapsed>.fa-angle-double-down { display: inline; }
 
 /* Animation */
-@-webkit-keyframes anitext {
+@-webkit-keyframes fade-in {
     
-    0% {color: #ead8f6;}
-    33% {color: #f0f0f0;}
-    66% {color: #ffffff;}
-    100% {color: #ead8f6;}
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
 
-h1, p {
-    color: #c48deb;
-    -webkit-animation-name: anitext;
-    -webkit-animation-duration: 30s;
-    -webkit-animation-iteration-count: infinite;
+nav, p, h1 {
+    -webkit-animation: fade-in 3s;
 }

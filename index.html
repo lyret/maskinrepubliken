@@ -1,22 +1,53 @@
 <!doctype html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="initial-scale=1.0">
-  <title>index</title>
-  <link rel="stylesheet" href="css/standardize.css">
-  <link rel="stylesheet" href="css/index-grid.css">
-  <link rel="stylesheet" href="css/index.css">
-</head>
-<body class="body page-index clearfix">
-    
-    <h1>Maskinrepubliken</h1>
-    <p>we code.</p>
-    
-    <audio loop autoplay>
-        <source src="audio/powerstation.mp3" type="audio/mpeg">
-        <source src="audio/powerstation.ogg" type="audio/ogg">
-    </audio>
-    
-</body>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0">
+		<title>index</title>
+		<link rel="stylesheet" href="lib/standardize/standardize.css">
+		<link rel="stylesheet" href="lib/bootstrap/bootstrap.min.css">
+		<link rel="stylesheet" href="lib/fontawesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/index.css">
+		
+		<link rel="stylesheet" href="font/marketdeco/stylesheet.css">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,700' rel='stylesheet' type='text/css'>
+		
+		<script src="lib/jquery/jquery.min.js"></script>
+		<script src="lib/bootstrap/bootstrap.min.js"></script>
+	</head>
+	<body class="body">
+	
+		<nav class="navbar navbar-dark">
+			<a class="navbar-brand" href="#">Maskinrepubliken</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsedContent">
+				<i class="fa fa-angle-double-up"></i><i class="fa fa-angle-double-down"></i>
+			</button>
+			<ul class="nav navbar-nav pull-right">
+				<li class="nav-item">
+					<a class="nav-link" href="#"><i class="fa fa-fw fa-slack"></i> Slack</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#"><i class="fa fa-fw fa-envelope-o"></i> Email</a>
+				</li>
+			</ul>
+		</nav>
+		
+		<div class="collapse in" id="collapsedContent">
+			<div class="bg-dark p-a">
+				<div class="container">
+					<div class="row">
+						<h1>We code for the future of machines </h1>
+						<hr/>
+						<p>Maskinrepubliken består av <a href="#">Viktor Lyresten</a> och <a href="#">Gustav Eriksson</a>, två AI programmerare upvuxna i sveriges djupaste skogar och saltaste kalklager.</p>
+						<p>Här är det fortfarande tomt, bokmärk den här sidan och kom tillbaka snart.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<audio loop autoplay>
+			<source src="audio/powerstation.mp3" type="audio/mpeg">
+			<source src="audio/powerstation.ogg" type="audio/ogg">
+		</audio>
+	</body>
 </html>
