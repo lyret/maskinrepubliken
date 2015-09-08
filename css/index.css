@@ -1,13 +1,18 @@
 body {
   height: 100%;
-  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1) ), url('../img/Forest.jpg') rgb(255, 255, 255);
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1) ), url('../img/forest_low_res.jpg') rgb(255, 255, 255);
   background-size: cover;
   background-position: center top;
   color: #ffffff;
   font-family: 'Open Sans', sans-serif;
 }
 
-/* Container Contnet */
+/* Background Image Loading */
+#hi-res-background-image {
+  display: none;
+}
+
+/* Container Content */
 .container h1 {
   font-family: market_decoregular, sans-serif;
 }
